@@ -8,8 +8,20 @@ const Asr = () => {
 
             <div>
                 <h5 style={{ textDecoration: "underline" }}>1st Rakat</h5>
-                <p>Surah Fatiha</p>
-                <p>Surah Ikhlaas</p>
+                <p><span className='light-brown d-inline-block me-2'>Surah Fatiha:</span><br />
+                    Bismillaahir Rahmaanir Raheem <br />
+                    Alhamdu lillaahi Rabbil 'aalameen <br />
+                    Ar-Rahmaanir-Raheem <br />
+                    Maaliki Yawmid-Deen <br />
+                    Iyyaaka na'budu wa lyyaaka nasta'een <br />
+                    Ihdinas-Siraatal-Mustaqeem <br />
+                    Siraatal-lazeena an'amta 'alaihim ghayril-maghdoobi 'alaihim wa lad-daaalleen</p>
+                <p><span className='light-brown d-inline-block me-2'>Surah Ikhlaas:</span><br />
+                    Bismillaahir Rahmaanir Raheem <br />
+                    Qul huwal laahu ahad <br />
+                    Allah hus-samad <br />
+                    Lam yalid wa lam yoolad <br />
+                    Wa lam yakul-lahoo kufuwan ahad</p>
                 <p>Allaahu Akbar</p>
                 <p> <span className='light-brown d-inline-block me-2'>Ruku:</span><br />
                     Subhaana rabbi al-'azeemi wa bi'hamdih <br />
@@ -36,8 +48,20 @@ const Asr = () => {
 
             <div>
                 <h5 style={{ textDecoration: "underline" }}>2nd Rakat</h5>
-                <p>Surah Fatiha</p>
-                <p>Surah Ikhlaas</p>
+                <p><span className='light-brown d-inline-block me-2'>Surah Fatiha:</span><br />
+                    Bismillaahir Rahmaanir Raheem <br />
+                    Alhamdu lillaahi Rabbil 'aalameen <br />
+                    Ar-Rahmaanir-Raheem <br />
+                    Maaliki Yawmid-Deen <br />
+                    Iyyaaka na'budu wa lyyaaka nasta'een <br />
+                    Ihdinas-Siraatal-Mustaqeem <br />
+                    Siraatal-lazeena an'amta 'alaihim ghayril-maghdoobi 'alaihim wa lad-daaalleen</p>
+                <p><span className='light-brown d-inline-block me-2'>Surah Ikhlaas:</span><br />
+                    Bismillaahir Rahmaanir Raheem <br />
+                    Qul huwal laahu ahad <br />
+                    Allah hus-samad <br />
+                    Lam yalid wa lam yoolad <br />
+                    Wa lam yakul-lahoo kufuwan ahad</p>
                 <p>Allaahu Akbar</p>
                 <p><span className='light-brown d-inline-block me-2'>Qunoot:</span><br />
                     Allaahumma salli 'alaa Muhammadin wa Aali Muhammad <br />
@@ -65,7 +89,7 @@ const Asr = () => {
                 <p><span className='light-brown d-inline-block me-2'>sit:</span><br />
                     Allaahu Akbar <br /><br />
                     <span className='light-brown d-inline-block me-2'>Tash'hadd:</span> <br />
-                    Alhamdullilah <br />
+                    Alhamdullilah. <br />
                     Ash'hadu an-laa ilaaha illallaah <br />
                     Wah'dahu laa shareeka lah <br />
                     wa ash'hadu anna muhammadan 'abduhu wa rasuluh <br />
@@ -77,7 +101,14 @@ const Asr = () => {
 
             <div>
                 <h5 style={{ textDecoration: "underline" }}>3rd Rakat</h5>
-                <p>Surah Fatiha</p>
+                <p><span className='light-brown d-inline-block me-2'>Surah Fatiha:</span><br />
+                    Bismillaahir Rahmaanir Raheem <br />
+                    Alhamdu lillaahi Rabbil 'aalameen <br />
+                    Ar-Rahmaanir-Raheem <br />
+                    Maaliki Yawmid-Deen <br />
+                    Iyyaaka na'budu wa lyyaaka nasta'een <br />
+                    Ihdinas-Siraatal-Mustaqeem <br />
+                    Siraatal-lazeena an'amta 'alaihim ghayril-maghdoobi 'alaihim wa lad-daaalleen</p>
 
                 <p>Allaahu Akbar</p>
                 <p> <span className='light-brown d-inline-block me-2'>Ruku:</span><br />
@@ -105,7 +136,14 @@ const Asr = () => {
 
             <div>
                 <h5 style={{ textDecoration: "underline" }}>4th Rakat</h5>
-                <p>Surah Fatiha</p>
+                <p><span className='light-brown d-inline-block me-2'>Surah Fatiha:</span><br />
+                    Bismillaahir Rahmaanir Raheem <br />
+                    Alhamdu lillaahi Rabbil 'aalameen <br />
+                    Ar-Rahmaanir-Raheem <br />
+                    Maaliki Yawmid-Deen <br />
+                    Iyyaaka na'budu wa lyyaaka nasta'een <br />
+                    Ihdinas-Siraatal-Mustaqeem <br />
+                    Siraatal-lazeena an'amta 'alaihim ghayril-maghdoobi 'alaihim wa lad-daaalleen</p>
                 <p>Allaahu Akbar</p>
 
                 <p><span className='light-brown d-inline-block me-2'>Ruku:</span><br />
@@ -127,7 +165,7 @@ const Asr = () => {
                 <p><span className='light-brown d-inline-block me-2'>sit:</span><br />
                     Allaahu Akbar <br /><br />
                     <span className='light-brown d-inline-block me-2'>Tash'hadd:</span> <br />
-                    Alhamdullilah <br />
+                    Alhamdullilah. <br />
                     Ash'hadu an-laa ilaaha illallaah <br />
                     Wah'dahu laa shareeka lah <br />
                     wa ash'hadu anna muhammadan 'abduhu wa rasuluh <br />
