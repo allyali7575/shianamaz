@@ -9,7 +9,8 @@
       "lint": "eslint .",
       "preview": "vite preview",
       "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist"
+      "deploy": "gh-pages -d dist",
+      "deploy-all": "npm run build && git add . && git commit -m \"Update app with recent changes\" && git push origin master && npm run deploy"
    },
    "dependencies": {
       "bootstrap": "^5.3.3",
