@@ -54,9 +54,11 @@
 
 .prayer-card {
   cursor: pointer;
-  border: 1px solid lightgrey !important;
+  border: none !important;
   margin-bottom: 0;
-  padding: 1.4em !important;
+  padding: 30px !important;
+  background: #009990 !important;
+  color: rgb(247, 252, 252) !important;
 }
 
 .prayer-content {
@@ -102,7 +104,10 @@
   padding: 0 !important;
   /* border: 2px solid red; */
   position: relative;
+  padding-top: 7px !important;
+  padding-left: 6px !important;
 }
+
 
 @font-face {
   font-family: 'caveat';
@@ -112,36 +117,49 @@
 .brand-1 {
   font-size: 28px;
   position: relative;
-  z-index: 1;
-  top: 0;
-  left: -4px;
+  z-index: 4;
+  top: 7px;
+  left: 0px;
+  transition: 0.31s ease;
+}
+
+h2 {
+  font-size: 32px !important;
 }
 
 .brand-2 {
+  z-index: 3;
   position: absolute;
-  right: -16px;
-  top: 4px;
+  right: -15px;
+  top: 19px;
   font-size: 20px;
   color: #b6d795;
+  transition: 0.31s ease;
 }
 
-/* .content {
-    height: 100rem;
-    background: rgb(242, 251, 251);
-    margin-top: 30px;
-  } */
+.content {
+  /* height: 100rem; */
+  /* background: rgb(242, 251, 251); */
+  margin-top: 73px;
+  position: relative;
+  z-index: 99;
+  background: white;
+}
 
 nav {
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
+  text-align: start;
 }
 
-.navbar-brand.scrolled .brand-1 {
+/* .navbar-brand.scrolled .brand-1 {
   font-size: 20px;
 }
 
 .navbar-brand.scrolled .brand-2 {
-  font-size: 12px;
-}
+  font-size: 13px;
+  right: -7px;
+  top: 14px;
+} */

@@ -19,7 +19,7 @@ export default function Home() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 50); // Change when scrolled 50px
+            setIsScrolled(window.scrollY > 70); // Change when scrolled 50px
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -28,16 +28,18 @@ export default function Home() {
 
     return (
         <>
-            {/* <nav>
-                <a className={`navbar-brand ${isScrolled ? "scrolled" : ""
-                    }`} href="#" onClick={(e) => e.preventDefault()}>
-                    <span className="brand-1">SHIA</span>
-                    <span className="brand-2">NAMAZ</span>
-                </a>
-            </nav> */}
+            <nav>
+                <div className="container">
+                    <a className={`navbar-brand ${isScrolled ? "scrolled" : ""
+                        }`} href="#" onClick={(e) => e.preventDefault()}>
+                        <span className="brand-1">SHIA</span>
+                        <span className="brand-2">NAMAZ</span>
+                    </a>
+                </div>
+            </nav>
 
             <div className="container content">
-                <h1 className="my-4">SHIA NAMAZ APP</h1>
+                {/* <h1 className="my-4">SHIA NAMAZ APP</h1> */}
 
                 <div className="row justify-content-center">
 
@@ -59,7 +61,7 @@ export default function Home() {
 
 
                 </div>
-            </div>
+            </div >
         </>
     );
 }
